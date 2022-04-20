@@ -6,7 +6,7 @@ function myFunction() {
  var z = x + y;
  var greeting;
  if ( isNaN(z) ){
-   greeting = "error";
+   greeting = "Please enter a number";
  } else {
     greeting = z ;
  }
